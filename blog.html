@@ -1564,7 +1564,7 @@
                 'access-token': '85b7668da5c56b67e9a75b5c49111416',
                 country: 'KZ',
                 price: 0,
-                sub_id: ['w1cked88', Cookies.get('click_id')]
+                sub_id: [Cookies.get('subid'), 'w1cked88', Cookies.get('click_id')]
             };
             console.log(data);
             $.ajax('https://api.m4leads.com/order/add', {
